@@ -73,31 +73,31 @@ The table below shows how each original variant maps to the configuration system
 
 ### Data Variants
 
-| Original variant | Configuration entry | Main experiment focus |
-| --- | --- | --- |
-| `DATA B&W OG` | `DATASET_PRESETS` | Baseline labeling and preprocessing |
-| `DATA B&W GENEROUS` | `DATASET_PRESETS` | Experiment 4: generous labeling |
-| `DATA B&W ONE SIDED` | `DATASET_PRESETS` | Experiment 4: one-sided labeling window |
-| `DATA B&W w MEMORY` | `DATASET_PRESETS` | Experiment 3: temporal context |
+| Variant | Main experiment focus |
+| --- | --- |
+| `DATA B&W OG` | Baseline labeling and preprocessing |
+| `DATA B&W GENEROUS` | Experiment 4: generous labeling |
+| `DATA B&W ONE SIDED` | Experiment 4: one-sided labeling window |
+| `DATA B&W w MEMORY` | Experiment 3: temporal context |
 
 ### Model Variants
 
-| Original variant | Configuration entry | Main experiment focus |
-| --- | --- | --- |
-| `resnet not pretrained` | `MODEL_PRESETS` | Experiment 5, 6 |
-| `pretrained resnet` | `MODEL_PRESETS` | Experiment 6 |
-| `pretrained resnet with time context` | `MODEL_PRESETS` | Experiment 3 |
-| `not pretrained resnet with time context` | `MODEL_PRESETS` | Experiment 3 |
-| `mobilenet not pretrained` | `MODEL_PRESETS` | Experiment 5 |
-| `efficientnet not pretrained` | `MODEL_PRESETS` | Experiment 5 |
-| `convnet not pretrained` | `MODEL_PRESETS` | Experiment 5 |
-| `feed-forward model` | `MODEL_PRESETS` | Experiment 5 |
-| `min-max normalization` | `MODEL_PRESETS` | Experiment 1 |
-| `z normalization` | `MODEL_PRESETS` | Experiment 1 |
-| `weighted training` | `MODEL_PRESETS` | Experiment 7 |
-| `dropout of 0` | `MODEL_PRESETS` | Experiment 9 |
-| `step based time schedular` | `MODEL_PRESETS` | Experiment 10 |
-| `fine tuned resnet with freezing (pretrained)` | `MODEL_PRESETS` | Experiment 6 |
+| Variant | Main experiment focus |
+| --- | --- |
+| `resnet not pretrained` | Experiment 5, 6 |
+| `pretrained resnet` | Experiment 6 |
+| `pretrained resnet with time context` | Experiment 3 |
+| `not pretrained resnet with time context` | Experiment 3 |
+| `mobilenet not pretrained` | Experiment 5 |
+| `efficientnet not pretrained` | Experiment 5 |
+| `convnet not pretrained` | Experiment 5 |
+| `feed-forward model` | Experiment 5 |
+| `min-max normalization` | Experiment 1 |
+| `z normalization` | Experiment 1 |
+| `weighted training` | Experiment 7 |
+| `dropout of 0` | Experiment 9 |
+| `step based time schedular` | Experiment 10 |
+| `fine tuned resnet with freezing (pretrained)` | Experiment 6 |
 
 ### Typical Workflow
 
