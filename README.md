@@ -75,9 +75,8 @@ The table below shows how each original variant maps to the configuration system
 
 | Variant | Main experiment focus |
 | --- | --- |
-| `DATA B&W OG` | Baseline labeling and preprocessing |
+| `DATA B&W` | Baseline labeling and preprocessing |
 | `DATA B&W GENEROUS` | Experiment 4: generous labeling |
-| `DATA B&W ONE SIDED` | Experiment 4: one-sided labeling window |
 | `DATA B&W w MEMORY` | Experiment 3: temporal context |
 
 ### Model Variants
