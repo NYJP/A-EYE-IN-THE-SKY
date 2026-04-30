@@ -1,13 +1,13 @@
 # A-EYE-IN-THE-SKY Experiments
 
-This repository contains the Python version of the experimental code used for the paper.
+This repository contains the experimental code used for the paper.
 - `dataloader.py`: dataset construction and preprocessing
 - `model_suite.py`: model construction, training utilities, validation, and testing
 
 
 ## Experiments
 
-The code keeps the experiment differences behind configuration variables.
+The code keeps the hyperparameter differences behind configuration variables.
 
 1. Normalization method
    Controlled in `TrainingConfig.normalization` in `model_suite.py`
