@@ -1,4 +1,4 @@
-# POLYGENCE Experiments
+# A-EYE-IN-THE-SKY Experiments
 
 This repository contains the Python version of the experimental code used for the paper.
 - `dataloader.py`: dataset construction and preprocessing
